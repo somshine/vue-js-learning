@@ -189,4 +189,9 @@ hr .new1 {
 .date {
     background-color: #ccc
 }
+
+.justify-content-center {
+  width: 50%;
+  margin: auto;
+}
 </style>

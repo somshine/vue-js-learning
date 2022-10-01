@@ -1,0 +1,52 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Working On Vue",
+      "description": "Adding some more details.",
+      "status": true
+    },
+    {
+      "title": "Task 1",
+      "description": "Task 1",
+      "status": true,
+      "id": 2
+    },
+    {
+      "title": "Task 2",
+      "description": "Task 2",
+      "status": true,
+      "id": 3
+    },
+    {
+      "title": "TODO 1",
+      "description": "TODO 1",
+      "status": true,
+      "id": 4
+    },
+    {
+      "title": "TODO 2",
+      "description": "TODO 2",
+      "status": true,
+      "id": 5
+    },
+    {
+      "title": "TODO 3",
+      "description": "TODO 3",
+      "status": true,
+      "id": 6
+    },
+    {
+      "title": "Som Task 1",
+      "description": "Som Task 1",
+      "status": true,
+      "id": 7
+    },
+    {
+      "title": "Som Task 2",
+      "description": "Som Task 2",
+      "status": true,
+      "id": 8
+    }
+  ]
+}

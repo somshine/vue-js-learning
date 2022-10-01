@@ -8,31 +8,26 @@ defineProps({
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Custom Advisor</a>
-
-    <li class="nav-item active">
-        <RouterLink class="nav-item" to="/">Home</RouterLink>
-    </li>
-    <li class="nav-item active">
-        <RouterLink class="nav-item" to="/user">User List</RouterLink>
-    </li>
-    <li class="nav-item active">
-        <RouterLink class="nav-item" to="/about">About</RouterLink>
-    </li>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left: 20px;">
-      <form class="form-inline my-2 my-lg-0">
-        <input
-          class="form-control mr-sm-2"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-          Search
-        </button>
-      </form>
+  <nav class="uk-navbar-container" uk-navbar>
+    <div class="uk-navbar-left">
+      <a class="uk-navbar-item uk-logo" href="#">Custom Advisor</a>
+      <ul class="uk-navbar-nav">
+        <li class="nav-item active">
+          <RouterLink class="nav-item" to="/"><i class="fa fa-home"></i> Home</RouterLink>
+        </li>
+        <li class="nav-item active">
+          <RouterLink class="nav-item" to="/user"><i class="fa fa-list"></i> User List</RouterLink>
+        </li>
+        <li class="nav-item">
+            <RouterLink class="nav-item" to="/state"><i class="fa fa-list"></i> State Management</RouterLink>
+        </li>
+        <li class="nav-item">
+            <RouterLink class="nav-item" to="/todo"><i class="fa fa-list"></i> Todo</RouterLink>
+        </li>
+        <li class="nav-item active">
+          <RouterLink class="nav-item" to="/about"><i class="fa fa-person"></i> About</RouterLink>
+        </li>
+        </ul>
     </div>
   </nav>
 </template>

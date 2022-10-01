@@ -11,4 +11,7 @@ import Navigation from "./components/Navigation.vue";
   </div>
 </template>
 
+<style lang="less">
+  @import "../node_modules/uikit/src/less/uikit.less";
+</style>
 <style scoped></style>
