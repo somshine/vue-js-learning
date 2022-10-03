@@ -48,5 +48,15 @@
       "status": true,
       "id": 8
     }
+  ],
+  "login": [
+    {
+      "id": 1,
+      "usernmae": "somshine",
+      "email": "soma.shinde@gmail.com",
+      "isAuthenticated": true,
+      "profileImage": "http://localhost:3000/login/profileImage",
+      "score": 600
+    }
   ]
 }

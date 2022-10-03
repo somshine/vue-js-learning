@@ -33,3 +33,17 @@ npm run build
 ```sh
 npm run lint
 ```
+
+## JSON Server
+```sh
+Using above URL you can start the json server on local which use the db.json file located in the parent directory.
+
+json-server --watch db.json
+
+https://www.npmjs.com/package/json-server
+```
+
+### [JSON Server Configuration and start cmd](https://www.npmjs.com/package/json-server)
+
+
+## Login in vue [Auth Url] https://www.smashingmagazine.com/2020/10/authentication-in-vue-js/
