@@ -2,6 +2,8 @@ import { createApp } from 'vue';
 import Vuex from 'vuex';
 import todos from '../modules/todos';
 import auth from '../modules/auth';
+import statemanagement from '../modules/statemanagement';
+
 import createPersistedState from "vuex-persistedstate";
 
 // const app = createApp(App)
@@ -10,7 +12,8 @@ import createPersistedState from "vuex-persistedstate";
 export default new Vuex.Store({
     modules: {
         todos,
-        auth
+        auth,
+        statemanagement
     },
     plugins: [createPersistedState()]
 });
